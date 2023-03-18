@@ -3,10 +3,10 @@ CEN302- Software Engineering project
 
 
 **Team Memebers:** </br>
-Xhoi Klosi- Team Leader
-Redi Nikolli
-Klejdi Braho
-Greta Cerloj
+Xhoi Klosi- Team Leader </br>
+Redi Nikolli </br>
+Klejdi Braho </br>
+Greta Cerloj </br>
 Darli Cara
 
 **Purpose**</br>
