@@ -36,6 +36,6 @@ For the user requirements we have decided that hte application needs:
 5. A Customer support page where the user can contact us regarding issues</br>
 6. A Form page, where the customer can evaluate themselves and get their results.</br>
 
-
+The user shall be able to enter the Homepage, whith the choice to Sign in or to go directly to the Form page. Based on the answers the system will generate the appropriate workout plan, whith links to each exercise for extra instructions. 
 
 
