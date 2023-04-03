@@ -22,3 +22,6 @@ As a group we decided to work on this particular topic since we have seen a lot 
 **Target audience**</br>
 Fitness enthusiasts, people that want to improve their physical health, overweight people, people that want to gain muscles.
 
+
+
+<h2>User Requirements</h2>
