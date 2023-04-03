@@ -28,6 +28,7 @@ The development model we will be using to construct our applications is going to
 
 <h2>User Requirements</h2>
 For the user requirements we have decided that hte application needs:
+
 1. A Homepage</br>
 2. A Login/Sign In page where the user creates their own profile</br>
 3. MyProfile page, where the user can customize his account and set goals based on their preferences</br>
