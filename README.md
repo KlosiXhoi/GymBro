@@ -39,3 +39,25 @@ For the user requirements we have decided that hte application needs:
 The user shall be able to enter the Homepage, whith the choice to Sign in or to go directly to the Form page. Based on the answers the system will generate the appropriate workout plan, whith links to each exercise for extra instructions. 
 
 
+<h2>System Requirements</h2>
+Homepage (Front-end): The homepage will be designed using HTML, CSS, and JavaScript, and will have a responsive design that adapts to different screen sizes. It wil also include links to other pages of the software.
+
+Login/Sign In Page (Front-end and Back-end): The login/sign in page willbe designed using HTML, CSS, and JavaScript for the front-end and  PHP for the back-end.
+
+MyProfile Page (Front-end and Back-end): The MyProfile page will be designed using HTML, CSS, and JavaScript for the front-end and will use  as PHP for the database. It will also include forms for users to customize their profile and set their fitness goals.
+
+Feedback Page (Front-end and Back-end): The feedback page should be designed using HTML, CSS, and JavaScript for the front-end and PHP for a databse so the business can identify problems. It will be a form for users to send feedback to the developers.
+
+Customer Support Page (Front-end and Back-end): The customer support page will be made using HTML, CSS, and JavaScript for the front-end and will use PHP for back-end. It will be apoproached by using a from for users to contact the developers regarding issues.
+
+Form Page (Front-end and Back-end): The form page should be designed using HTML, CSS, and JavaScript for the front-end and we will use use server-side PHP for the back-end while using JavaScript we will come up with an algorithm to refirect to the proper workout plan. 
+
+Workout Plan Generation (Back-end): The workout plan generation will be implemented using server-side programming language PHP. It will the data from the Form algorithm and show the pre-made plans.
+
+Exercise Instruction (Front-end): The exercise instruction links should be designed using HTML, CSS, and JavaScript for the front-end. They will lead the user to external websites or videos that provide instructions on how to perform the exercises.
+
+User-friendly Interface (Front-end): The application should have a user-friendly interface that is easy to use and navigate. It should also provide feedback to the user regarding their inputs and actions.
+
+Database: The database will consists of localhost and include the tables for users credentials, feedback,support tickets, admins. The connection will be made using PHP.
+
+Admin Interface: This page will be made using HTML, CSS, and JavaScript for the front-end. It will provide tables form database for easier usage of admin employees using PHP. To enter it will require to match with a previous admin credentials from the database. New admins will be added usinng this page.
