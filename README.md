@@ -61,4 +61,4 @@ The user shall be able to enter the Homepage, whith the choice to Sign in or to 
 
 10.Database (Back-end):: The database will consists of localhost and include the tables for users credentials, feedback,support tickets, admins. The connection will be made using PHP.</br>
 
-11.Admin Interface (Front-end and Back-end):: This page will be made using HTML, CSS, and JavaScript for the front-end. It will provide tables form database for easier usage of admin employees using PHP. To enter it will require to match with a previous admin credentials from the database. New admins will be added usinng this page.</br>
+11.Admin Interface (Front-end and Back-end): This page will be made using HTML, CSS, and JavaScript for the front-end. It will provide tables form database for easier usage of admin employees using PHP. To enter it will require to match with a previous admin credentials from the database. New admins will be added usinng this page.</br>
