@@ -40,7 +40,6 @@ The user shall be able to enter the Homepage, whith the choice to Sign in or to 
 
 
 <h2>System Requirements</h2>
-
 1.Homepage (Front-end): The homepage will be designed using HTML, CSS, and JavaScript, and will have a responsive design that adapts to different screen sizes. It wil also include links to other pages of the software.</br>
 
 2.Login/Sign In Page (Front-end and Back-end): The login/sign in page willbe designed using HTML, CSS, and JavaScript for the front-end and  PHP for the back-end.</br>
@@ -59,6 +58,6 @@ The user shall be able to enter the Homepage, whith the choice to Sign in or to 
 
 9.User-friendly Interface (Front-end): The application should have a user-friendly interface that is easy to use and navigate. It should also provide feedback to the user regarding their inputs and actions.</br>
 
-10.Database: The database will consists of localhost and include the tables for users credentials, feedback,support tickets, admins. The connection will be made using PHP.</br>
+10.Database (Back-end):: The database will consists of localhost and include the tables for users credentials, feedback,support tickets, admins. The connection will be made using PHP.</br>
 
-11.Admin Interface: This page will be made using HTML, CSS, and JavaScript for the front-end. It will provide tables form database for easier usage of admin employees using PHP. To enter it will require to match with a previous admin credentials from the database. New admins will be added usinng this page.</br>
+11.Admin Interface (Front-end and Back-end):: This page will be made using HTML, CSS, and JavaScript for the front-end. It will provide tables form database for easier usage of admin employees using PHP. To enter it will require to match with a previous admin credentials from the database. New admins will be added usinng this page.</br>
