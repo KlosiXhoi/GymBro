@@ -40,6 +40,7 @@ The user shall be able to enter the Homepage, whith the choice to Sign in or to 
 
 
 <h2>System Requirements</h2>
+
 1.Homepage (Front-end): The homepage will be designed using HTML, CSS, and JavaScript, and will have a responsive design that adapts to different screen sizes. It wil also include links to other pages of the software.</br>
 
 2.Login/Sign In Page (Front-end and Back-end): The login/sign in page willbe designed using HTML, CSS, and JavaScript for the front-end and  PHP for the back-end.</br>
