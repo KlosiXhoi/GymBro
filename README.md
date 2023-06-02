@@ -32,9 +32,8 @@ For the user requirements we have decided that hte application needs:
 1. A Homepage</br>
 2. A Login/Sign In page where the user creates their own profile</br>
 3. MyProfile page, where the user can customize his account and set goals based on their preferences</br>
-4. A feedback page, where feedback is sent to us regarding improvements</br>
-5. A Customer support page where the user can contact us regarding issues</br>
-6. A Form page, where the customer can evaluate themselves and get their results.</br>
+4. A feedback page, where feedback is sent to us regarding improvements and possible issues</br>
+5. A Form page, where the customer can evaluate themselves and get their results.</br>
 
 The user shall be able to enter the Homepage, whith the choice to Sign in or to go directly to the Form page. Based on the answers the system will generate the appropriate workout plan, whith links to each exercise for extra instructions. 
 
@@ -47,18 +46,16 @@ The user shall be able to enter the Homepage, whith the choice to Sign in or to 
 
 3.MyProfile Page (Front-end and Back-end): The MyProfile page will be designed using HTML, CSS, and JavaScript for the front-end and will use  as PHP for the database. It will also include forms for users to customize their profile and set their fitness goals.</br>
 
-4.Feedback Page (Front-end and Back-end): The feedback page should be designed using HTML, CSS, and JavaScript for the front-end and PHP for a databse so the business can identify problems. It will be a form for users to send feedback to the developers.</br>
+4.Feedback Page (Front-end and Back-end): The feedback page should be designed using HTML, CSS, and JavaScript for the front-end and PHP for a databse so the business can identify problems. It will be a form for users to send feedback and possible issues to the developers.</br>
 
-5.Customer Support Page (Front-end and Back-end): The customer support page will be made using HTML, CSS, and JavaScript for the front-end and will use PHP for back-end. It will be apoproached by using a from for users to contact the developers regarding issues.</br>
+5.Form Page (Front-end and Back-end): The form page should be designed using HTML, CSS, and JavaScript for the front-end and we will use use server-side PHP for the back-end while using JavaScript we will come up with an algorithm to refirect to the proper workout plan.</br>
 
-6.Form Page (Front-end and Back-end): The form page should be designed using HTML, CSS, and JavaScript for the front-end and we will use use server-side PHP for the back-end while using JavaScript we will come up with an algorithm to refirect to the proper workout plan.</br>
+6.Workout Plan Generation (Back-end): The workout plan generation will be implemented using server-side programming language PHP. It will the data from the Form algorithm and show the pre-made plans.</br>
 
-7.Workout Plan Generation (Back-end): The workout plan generation will be implemented using server-side programming language PHP. It will the data from the Form algorithm and show the pre-made plans.</br>
+7.Exercise Instruction (Front-end): The exercise instruction links should be designed using HTML, CSS, and JavaScript for the front-end. They will lead the user to external websites or videos that provide instructions on how to perform the exercises.</br>
 
-8.Exercise Instruction (Front-end): The exercise instruction links should be designed using HTML, CSS, and JavaScript for the front-end. They will lead the user to external websites or videos that provide instructions on how to perform the exercises.</br>
+8.User-friendly Interface (Front-end): The application should have a user-friendly interface that is easy to use and navigate. It should also provide feedback to the user regarding their inputs and actions.</br>
 
-9.User-friendly Interface (Front-end): The application should have a user-friendly interface that is easy to use and navigate. It should also provide feedback to the user regarding their inputs and actions.</br>
+9.Database (Back-end):: The database will consists of localhost and include the tables for users credentials, feedback, admins. The connection will be made using PHP.</br>
 
-10.Database (Back-end):: The database will consists of localhost and include the tables for users credentials, feedback,support tickets, admins. The connection will be made using PHP.</br>
-
-11.Admin Interface (Front-end and Back-end): This page will be made using HTML, CSS, and JavaScript for the front-end. It will provide tables form database for easier usage of admin employees using PHP. To enter it will require to match with a previous admin credentials from the database. New admins will be added usinng this page.</br>
+10.Admin Interface (Front-end and Back-end): This page will be made using HTML, CSS, and JavaScript for the front-end. It will provide tables form database for easier usage of admin employees using PHP. To enter it will require to match with a previous admin credentials from the database. New admins will be added usinng this page.</br>
