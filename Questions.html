@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="Gym-css.css">
+    <title>The plan</title>
+    <img src="GymBro logo.png" width="500" >
+    <head>
+        <style>
+            body{
+                color: white;
+                font-size: large;
+                background-image: url(alex.jpg), url(gb3.jpg);
+                    background-position: left, right;
+                    background-repeat: no-repeat, no-repeat;
+                    padding: 100px;
+                   background-size: 30%,30%;
+                  
+            }
+        </style>
+    </head>
+    <body>
+        <h1>The road to fitness starts now</h1>
+        <div class="container">
+         <form >
+        <label> Gym goal</label></br>
+         
+            <input type="radio" name="goal" value="1"  id="L" required> Weight loss 
+            <input type="radio" name="goal" value="2"  id="S" > Maintain 
+            <input type="radio" name="goal" value="3"  id="G"> Gain mass  </br>
+            
+            <label for="weight"><b>What is your weight </b></label>
+            <input type="number" placeholder="kg" name="weight" id="weight" required></br>
+        
+            <label for="height"><b>What is your height</b></label>
+            <input type="number" placeholder="cm" name="height" id="height" required></br>
+
+        <label for="active"> How active are you</label></br>
+         
+             Not active 
+            <input type="radio" name="activity" value="1" required> 1    
+            <input type="radio" name="activity" value="2" > 2 
+            <input type="radio" name="activity" value="3" > 3  
+            <input type="radio" name="activity" value="4" > 4 
+            <input type="radio" name="activity" value="5" > 5 
+             Very active 
+         </br>
+
+        <label for> Desired split </label></br>
+        <input type="radio" name="split" value="1" id="E" required>3-Day
+        <input type="radio" name="split" value="2"  id="M" > 5-Day
+        <input type="radio" name="split" value="3"  id="H"> 7-Day </br>
+
+        <label for="knowledge">Gym knowledge</label></br>
+        Begginer
+        <input type="radio" name="knowledge" value="1" required> 1    
+        <input type="radio" name="knowledge" value="2" > 2 
+        <input type="radio" name="knowledge" value="3" > 3  
+        <input type="radio" name="knowledge" value="4" > 4 
+        <input type="radio" name="knowledge" value="5" > 5 
+         Expert
+    </br>
+        <input type="submit" onclick="plan()" value="Submit">
+            </form>
+        </div>
+        <script>
+        var LOSS = document.getElementById("L");
+        var  MAIN= document.getElementById("S");
+        var GAIN = document.getElementById("G");
+        var D3=document.getElementById("E");
+        var D5=document.getElementById("M");
+        var D7=document.getElementById("H");
+    
+    function plan(){
+    if (LOSS.checked && D3.checked){
+        location.href="3_Day_Loss.html"; 
+    }else if 
+    (LOSS.checked && D5.checked) {
+        location.href="5_day_split_weight_loss.html";
+    }
+    else if (LOSS.checked && D7.checked) {
+        location.href="7_day_split_weight_loss.html";
+    } 
+    else if (MAIN.checked && D3.checked){
+        location.href="3_day_split_maintain.html";   
+    }
+    else if (MAIN.checked && D5.checked) {
+        location.href="5_day_split_maintain.html";
+    }
+    else if (MAIN.checked && D7.checked) {
+        location.href="7_day_split_maintain.html";
+    } 
+    else if (GAIN.checked && D3.checked){
+        location.href="3_day_split_mass_gain.html";;   
+    }
+    else if (GAIN.checked && D5.checked) {
+        location.href="5_day_split_mass_gain.html";
+    }
+    else if (GAIN.checked && D7.checked) {
+        location.href="7_day_split_mass_gain.html";
+    } 
+} 
+
+
+
+        </script>
+    </body>    
+</html>
