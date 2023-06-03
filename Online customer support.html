@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback</title>
+<style>
+body {
+  text-align: center;
+
+}
+</style>
+<link rel="stylesheet" href="Gym-css.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Feedback</h1>
+
+        <form action="Feedback.php" method="post">
+ 
+            <label for="type">Type of Feedback:</label><br>
+            <input type="radio" name="type" value="Suggestions" id="type" required>Suggestions
+            <input type="radio" name="type" value="Issues" id="type" > Issues <br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    
+
+   
+</body>
+</html>
